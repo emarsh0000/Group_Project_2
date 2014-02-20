@@ -1,0 +1,24 @@
+h4{
+	font-family: sans-serif;
+	margin-bottom: 7;
+}
+
+#Map-block{
+	font-family: sans-serif;
+	vertical-align: top;
+	width: 195px;
+	display: inline-block;
+}
+
+#Map-block p{
+	font-size: 10px;
+	width: 195px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#Map{
+	vertical-align: top;
+	display: inline-block;
+	margin: 0;
+}
