@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>fundamentals 2</title>
+	</head>
+	<body>
+		<script>
+			var person = {};
+			person = {
+				name: 'Trey',
+				distance_traveled: 0,
+				say_name: function(phrase)
+				{
+					console.log('Trey says ' + phrase); 
+				},
+				walk: function()
+				{
+					console.log('Trey is walking');
+					this.distance_traveled +=3;
+				},
+				run: function()
+				{
+					console.log('Trey is running');
+					this.distance_traveled +=10;
+				},
+				crawl: function()
+				{
+					console.log('Trey is crawling');
+					this.distance_traveled +=1;
+				},
+				do_something: function()
+				{
+					var random = Math.random();
+
+					if(random < .33)
+					{
+						return this.walk; //if you didn't need to save these under another
+										//variable, you would TAKE OUT the return and put in the (); at the end.
+					}
+					else if(random > .66)
+					{
+						return this.run;
+					}
+					else
+					{
+						return this.crawl;
+					}
+
+
+				},
+				fly: function()
+				{
+					var random = Math.random();
+
+					if (random < .31) 
+						{
+							console.log("You took off!");
+							function fly_again()
+							{
+								var random = Math.random();
+								if (random < .31) 
+									{
+										console.log("You had a nice long flight. WHEEEE!");
+									}
+								else
+									{
+										console.log("Auhhh, you were too hungry to fly long and went home for lunch");
+									}
+							}
+							fly_again(); //you have to call the other 2nd function inside to continue
+						}
+						else
+						{
+							console.log("No luck getting airborne. One more try?");
+							function fly_try_two()
+							{
+								var random = Math.random();
+								if (random < .31) 
+									{
+										console.log("YAA! FINALLY! You can FLY! OFF TO NEVERLAND!");
+									}
+								else
+								{
+									console.log("Sorry, guess you weren't meant to be a bird.")
+								}
+							} fly_try_two(); //have to call 2nd one inside to continue.
+						}
+
+				}
+			}
+
+			var returned_function = person.do_something(); //save this whole thing under this
+															//variable for calling later.
+
+			person.say_name("he is exhausted"); //calling the object and the part you want to enact.
+			person.walk();
+			person.run();
+			person.crawl();
+			returned_function();
+			person.fly();
+
+			console.log(person); //to double check the distance traveled increased correctly.
+
+		</script>
+
+	</body>
+</html>

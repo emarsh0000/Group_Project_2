@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>fundamentals</title>
+	</head>
+	<body>
+		<script>
+			var x = [3, 5, 'Dojo', 'rocks', {name: 'Michael', title: 'Sensei'}];
+			
+			for (var i = 0; i < x.length; i++) 
+			{
+				console.log(x[i] + ":" + " " + typeof(x[i]));
+			};
+			x.push(100);
+			console.log(x);
+			x.push([]);
+
+			var number = 500;
+			var sum = 0;
+			
+			for (var i = 0; i < number; i++) 
+			{
+				sum += i; //add each number to the next in sum. to iteratate each one: sum += 1;
+				 //and print it each time to console.
+			};
+				console.log(sum);
+
+
+		</script>
+
+	</body>
+</html>
