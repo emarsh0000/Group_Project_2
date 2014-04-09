@@ -1,0 +1,10 @@
+body{
+	background-color: lightgreen;
+	margin: 20px;
+
+}
+
+#new{
+	float: right;
+	display: inline-block;
+}

@@ -1,0 +1,24 @@
+body{
+	background-color: purple;
+	color: white;
+
+}
+
+p{
+	border: 1px solid white;
+	text-align: center;
+	width: 200px;
+	margin: auto;
+}
+
+#key{
+	border: 1px solid white;
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+
+h2{
+	margin: auto;
+	padding: 20px 10px;
+}

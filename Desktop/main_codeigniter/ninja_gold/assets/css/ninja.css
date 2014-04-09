@@ -1,0 +1,59 @@
+body{
+	background-color: gray;
+	margin-left: 30px;
+}
+
+div{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.button{
+	background-color: yellow;
+	margin-bottom: 20px;
+}
+
+#goldmoney{
+	background-color: white;
+}
+
+#comments{
+	width: 703px;
+	margin: 10px;
+	background-color: white;
+	font-size: 15px;
+	overflow: scroll;
+	height: 200px;
+}
+
+p{
+	font-size: 14px;
+	margin: 0;
+}
+
+#farm{
+	margin-bottom: 25px;
+	background-color: pink;
+}
+
+#cave{
+	background-color: cyan;
+}
+
+#house{
+	background-color: green;
+}
+
+#casino{
+	background-color: red;
+}
+
+#goldbox{
+	margin-left: 10px;
+	width: 30px;
+	border: 2px solid red;
+}

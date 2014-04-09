@@ -1,0 +1,17 @@
+body{
+	margin-left: 20px;
+	background-color: pink;
+	font-family: 'Sofadi One', cursive;
+}
+
+.note{
+	background-color: gold;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	padding: 7px;
+	margin: 5px;
+	vertical-align: top;
+
+}

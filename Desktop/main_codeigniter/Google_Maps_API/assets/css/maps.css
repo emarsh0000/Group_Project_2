@@ -1,0 +1,38 @@
+body{
+	background-color: lavender;
+	margin: 20px;
+	background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSACiebxQYaL_VMeAbcZ2BgRMVoETn1nTlRLwgXdv59zinVtJ163w");
+}
+
+#route{
+	text-decoration: bold;
+	font-size: 20px;
+	text-decoration: underline;
+	background-color: white;
+}
+
+#all{
+	background-color: white;
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+	font-family: fantasy;
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline-block;
+	background-color: white;
+	padding: 10px;
+
+}
+
+span{
+	display: inline-block;
+	padding: 10px;
+	background-color: white;
+}
+
+#plane{
+	margin-left: 320px;
+}

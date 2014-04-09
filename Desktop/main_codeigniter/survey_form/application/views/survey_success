@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
+		<!--bootstrap-->
+		<link rel = "stylesheet" type = "text/css" href = "/assets/css/survey.css"> 
+		<!-- connects stylesheet for css --> 
+		<title>Survey Form Success</title>
+	</head>
+	<body id = 'success'>
+		<div>
+			<h4>Submitted Information</h4>
+			<div>
+				<p>Name: </p><br>
+				<p>Dojo Location: </p><br>
+				<p>Favorite Language: </p><br>
+				<p>Comment: </p><br>
+			</div>
+			<!--<?php
+			//echo 
+
+			?>-->
+
+		</div>
+	</body>
+</html>

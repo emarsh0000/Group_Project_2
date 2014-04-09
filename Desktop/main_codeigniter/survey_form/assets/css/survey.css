@@ -1,0 +1,36 @@
+#survey{
+	border: 1px solid black;
+	background-color: tan;
+	display: inline-block;
+	margin: 100px;
+	width: 500px;
+	padding: 10px 10px;
+}
+body{
+	background-color: black;
+}
+
+#success{
+	border: 1px solid black;
+	display: inline-block;
+}
+
+#user{
+	display: inline-block;
+	margin-left: 150px;
+
+
+}
+
+#info{
+	display: inline-block;
+	float: left;
+}
+
+#button{
+	float: bottom;
+}
+
+#click{
+	color: white;
+}

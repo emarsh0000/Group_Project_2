@@ -1,0 +1,60 @@
+html{
+	background-color: gray;
+}
+
+div{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10px 10px;
+	margin-bottom: 10px;
+}
+
+.button{
+	background-color: yellow;
+}
+
+#comments{
+	width: 703px;
+	margin: 10px;
+	background-color: white;
+	font-size: 10px;
+	overflow: scroll;
+	height: 200px;
+}
+
+p{
+	font-size: 14px;
+	margin: 0;
+}
+
+#farm{
+	margin-bottom: 25px;
+	background-color: pink;
+}
+
+#cave{
+	background-color: cyan;
+}
+
+#house{
+	background-color: green;
+}
+
+#casino{
+	background-color: red;
+}
+
+#goldbox{
+	margin-left: 10px;
+	width: 30px;
+	border: 2px solid red;
+}
+
+textarea{
+	font-size: 12px;
+}
+
+span{
+	font-size: 12px;
+}
