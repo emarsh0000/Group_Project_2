@@ -1,0 +1,10 @@
+#welcome_page{
+	font-size: 50px;
+	background-color: lightblue;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+body{
+	background-color: brown;
+}
