@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Survey Results</title>
+	</head>
+		<body>
+			<div>
+				<h1>Your Info!</h1>
+				<!--Find me in app/views/main/result.html.erb-->
+				<h4><u>Submitted Information</u></h4>
+				<%= session[:message] %><br><br>
+			</div>
+			<div id = 'info'>
+				
+				<p>Name: <%= @survey[:name] %></p>
+				<p>Location: <%= @survey[:location] %></p>
+				<p>Favorite Coding Language: <%= @survey[:language] %></p>
+				<p>Comments: <%= @survey[:comment] %></p>
+
+			</div>
+		</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Survey</title>
+	</head>
+		<body>
+			<div>
+				<h1>Survey!</h1>
+				<!--Find me in app/views/main/main.html.erb-->
+				</h1>
+			</div>
+			<div id = 'info'>
+				<form action="/main/result" method="post">
+				  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+				  Your Name: <input type="text" name="post[name]" placeholder="name"><br>
+				 Dojo Location: <select name="post[location]">
+					<option value="Mountain View">Mountain View</option>
+					<option value="Seattle">Seattle</option>
+					<option value="New York">New York</option>
+					<option value="LA">LA</option>
+				 </select><br>
+				Favorite Language: <select name="post[language]"> <!--this bracket puts all info in 													one onject-->
+					<option value="Ruby">Ruby</option>
+					<option value="HTML/CSS">HTML/CSS</option>
+					<option value="PHP">PHP</option>
+					<option value="C++">C++</option>
+				 </select><br>
+				  Comment (Optional)<br><textarea name="post[comment]"></textarea><br>
+				  <input type="submit" value="Submit" />
+				</form>
+			</div>
+		</body>
+</html>
+
