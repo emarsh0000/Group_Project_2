@@ -1,0 +1,58 @@
+Algorithm Rules
+
+1. Setup Array (set the facts or equals to so you have the info.)
+2. Note Beginning of Array
+3. Note ending of Array
+4. Travel the Array
+5. Do the Work
+6. Increment Loop
+7. Go to top of Loop
+
+Statement of Problem:
+Count the items in the array that are greater than 3 [1, 3, 5, 7]
+
+1)	set array to be [1, 3, 5, 7]
+2)	set pos is 0
+3)	set end is count(array)
+4)	set counter equal to 0
+5)	set value to 3 (as a placeholder for 3
+6)	if (pos < end) do {
+7)	   array[pos] > value {
+8)	      counter = counter + 1 (in this case, this is saving the amount of true in statement)
+9)	   }
+10)	   pos = pos + 1
+11)	   Go to step 6
+12)	}
+13) print counter
+
+Make sure to check your function. Run through code to make sure it runs correctly.
+
+Name		Value
+------------------
+Array[0]	1
+Array[1]	3
+Array[2]	5
+Array[3]	7
+value 		3
+counter		0	1 	2
+pos			0	1 	2	3	4
+end 		4
+
+
+-----------------------------------------------
+
+Algorithm Rules
+
+1. Setup Array (set the facts or equals to so you have the info.)
+2. Note Beginning of Array
+3. Note ending of Array
+4. Travel the Array
+5. Do the Work
+6. Increment Loop
+7. Go to top of Loop
+
+1)	set array to ["Visit Microsoft"]
+2)	set arrayfind to ["Microsoft"]
+3)	set arrayreplace to ["Coding Dojo"]
+4)	set arrayanswer to []
+5)	

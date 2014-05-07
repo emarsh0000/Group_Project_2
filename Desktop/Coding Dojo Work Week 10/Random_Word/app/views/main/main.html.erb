@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div>
+		<h1>Random Word Generator!</h1>
+		<%= session[:message] %><br><br>
+	</div>
+	<div id = 'box'>
+		<form action="/main/random" method="post">
+			<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+			<%= session[:word] %>
+	</div><br><br>
+		 	<input type="submit" value="Submit" />
+		</form>
+</body>
+</html>
